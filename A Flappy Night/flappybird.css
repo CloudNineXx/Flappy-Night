@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #222;
+}
+
+#game-container {
+    position: relative;
+    width: 768px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#board { 
+    display: block;
+}
+
+#music-toggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 10;
+}
